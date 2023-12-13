@@ -1,6 +1,6 @@
 # Phase 4 Project: Movie Recommender System
 
-## Project Team: Group 2¶
+## Project Team: Group 2
 
    1. Rose Kyalo
    2. Angel Linah Atungire
