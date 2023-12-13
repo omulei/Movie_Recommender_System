@@ -691,6 +691,20 @@ plt.xlabel('Number of Ratings')
 plt.ylabel('Movie Title')
 plt.show()
 
+# 5. Average Movie Rating by Release Year
+
+movies_and_ratings['year'] = movies_and_ratings['title'].str.extract(r'\((\d{4})\)').astype(float)
+
+average_ratings_by_year = movies_and_ratings.groupby('year')['rating'].mean().reset_index()
+
+plt.figure(figsize=(12, 6))
+sns.scatterplot(x='year', y='rating', data=average_ratings_by_year, alpha=0.6)
+plt.title('Average Movie Rating by Release Year')
+plt.xlabel('Release Year')
+plt.ylabel('Average Rating')
+plt.grid(True)
+plt.show()
+
 # Outputting Number of Unique Users and Movies, and Top 10 Genres
 
 num_users, num_movies, genre_counts.head(10)
@@ -711,6 +725,12 @@ num_users, num_movies, genre_counts.head(10)
 
     
 ![png](output_16_2.png)
+    
+
+
+
+    
+![png](output_16_3.png)
     
 
 

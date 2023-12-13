@@ -73,15 +73,24 @@ Usage
 
 ## Exploratory Data Analysis <a name="exploratory-data-analysis"></a>
 
-#### Correlation of movie ratings and their ages
-
-We plotted a scatter plot to ascertain a potential relationship between a movie's release year and its average rating.It revealed a distinct clustering pattern, showcasing average ratings predominantly within the range of 2 to 4.5 for movies aged from 0 to around 50 years. This suggests a tendency for recently released movies to accumulate ratings within this particular span. However, as movies surpass the 60-year mark, the clustering diminishes notably. This trend implies a shift in audience interest towards newer iterations or fresher content as movies age, leading to decreased clustering and diversity in ratings for older movies.
-
 #### Distribution of ratings
 Majority of movies received ratings of 4 and 3. Conversely, a smaller number of movies were rated at 0.5, indicating that very few movies garnered such low ratings.
 
-#### Count of movies per Genre
-The analysis highlights Drama as the genre with the most extensive count of movies in the dataset, followed closely by Comedy.
+![png](/images/output_16_0.png)
+
+#### Genre Analysis
+The most common genres are Drama and Comedy, indicating diverse user preferences.
+
+![png](/images/output_16_1.png)
+
+#### Top Watched Movies 
+
+![png](/images/output_16_2.png)
+
+#### Average Movie Rating by Release Year
+We plotted a scatter plot to ascertain a potential relationship between a movie's release year and its average rating.It revealed a distinct clustering pattern, showcasing average ratings predominantly within the range of 2 to 4.5 for movies aged from 0 to around 50 years. This suggests a tendency for recently released movies to accumulate ratings within this particular span. However, as movies surpass the 60-year mark, the clustering diminishes notably. This trend implies a shift in audience interest towards newer iterations or fresher content as movies age, leading to decreased clustering and diversity in ratings for older movies.
+
+![png](/images/output_16_3.png)
 
 ## Features <a name="features"></a>
 
@@ -114,7 +123,7 @@ Fork the repository to your GitHub account, and then clone it to your local mach
 
 bash
 Copy code
-git clone https://github.com/Your-Username/Your-Repository.git
+git clone https://github.com/omulei/Movie_Recommender_System.git
 
 **2. Access the Jupyter Notebook**
 
