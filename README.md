@@ -204,7 +204,8 @@ Future Improvements <a name="future-improvements"></a>
 
 Conclusion <a name="conclusion"></a>
 
-Our movie recommendation system leverages user behaviors and preferences to deliver precise, personalized movie suggestions. Through advanced algorithms, we ensure top-rated recommendations aligned with individual tastes, fostering enhanced user engagement. The system's adaptability and user-centric approach signify its potential for longer user retention and successful promotional strategies. This project marks a pivotal step in optimizing user experiences within the entertainment industry, paving the way for future enhancements and broader accessibility.
+Our movie recommendation system leverages user behaviors and preferences to deliver precise, personalized movie suggestions. 
+Through advanced algorithms, we ensure top-rated recommendations aligned with individual tastes, fostering enhanced user engagement. The system's adaptability and user-centric approach signify its potential for longer user retention and successful promotional strategies. This project marks a pivotal step in optimizing user experiences within the entertainment industry, paving the way for future enhancements and broader accessibility.
 
 License <a name="license"></a>
 
