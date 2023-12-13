@@ -83,7 +83,21 @@ The most common genres are Drama and Comedy, indicating diverse user preferences
 
 ![png](/images/output_16_1.png)
 
-#### Top Watched Movies 
+#### Top Watched Movies
+The top ten most watched movies in the dataset, based on the number of ratings they received, are:
+
+1. **Forrest Gump (1994)** - 329 ratings
+2. **Shawshank Redemption, The (1994)** - 317 ratings
+3. **Pulp Fiction (1994)** - 307 ratings
+4. **Silence of the Lambs, The (1991)** - 279 ratings
+5. **Matrix, The (1999)** - 278 ratings
+6. **Star Wars: Episode IV - A New Hope (1977)** - 251 ratings
+7. **Jurassic Park (1993)** - 238 ratings
+8. **Braveheart (1995)** - 237 ratings
+9. **Terminator 2: Judgment Day (1991)** - 224 ratings
+10. **Schindler's List (1993)** - 220 ratings
+
+These titles represent the most popular ones in terms of the frequency of ratings among the users in the dataset.
 
 ![png](/images/output_16_2.png)
 
